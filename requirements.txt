@@ -1,0 +1,5 @@
+PySide6-Essentials>=6.6
+winsdk>=1.0.0b10
+numpy
+# İsteğe bağlı (Çince/Japonca/Korece gibi Windows OCR'ın okuyamadığı diller için yedek):
+# rapidocr-onnxruntime
