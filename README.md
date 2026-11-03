@@ -24,3 +24,7 @@ Daha iyi İngilizce okuma için (yönetici PowerShell): `Add-WindowsCapability -
 
 ## Test
 `python test_hat.py` (OCR → paragraf → çeviri hattı).
+
+## Lisans
+
+Yusuf Günay tarafından geliştirildi. [Mozilla Public License 2.0](LICENSE): başkası kullanabilir ve geliştirebilir; kendi ayrı kodunu kapalı tutabilir, ama bu projenin dosyalarına yaptığı değişiklikler açık kalır ve "Yusuf Günay" telif satırı korunur.
