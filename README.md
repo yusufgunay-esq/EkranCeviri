@@ -18,7 +18,7 @@ Ayarlar: `%APPDATA%\EkranCeviri\ayar.json` (`kisayol`, `hedef` dil kodu).
 
 ## Kurulum
     pip install -r requirements.txt
-    pythonw -m ekranceviri      # ya da baslat.vbs
+    pyw baslat.pyw      # ya da baslat.vbs (konsolsuz)
 
 Daha iyi İngilizce okuma için (yönetici PowerShell): `Add-WindowsCapability -Online -Name Language.OCR~~~en-US~~~0.0.1.0`
 

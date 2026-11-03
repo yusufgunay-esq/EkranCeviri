@@ -52,8 +52,7 @@ def baslangic_ayarla(ac):
         kok = Path(__file__).resolve().parent.parent
         BASLANGIC.write_text(
             'Set s = CreateObject("WScript.Shell")\n'
-            f's.CurrentDirectory = "{kok}"\n'
-            f's.Run """{pyw}"" -m ekranceviri", 0, False\n', encoding="utf-8")
+            f's.Run """{pyw}"" ""{kok / "baslat.pyw"}""", 0, False\n', encoding="utf-8")
     elif BASLANGIC.exists():
         BASLANGIC.unlink()
 

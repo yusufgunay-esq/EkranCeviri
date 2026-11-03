@@ -1,3 +1,3 @@
+Set fso = CreateObject("Scripting.FileSystemObject")
 Set s = CreateObject("WScript.Shell")
-s.CurrentDirectory = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
-s.Run "pythonw.exe -m ekranceviri", 0, False
+s.Run "pyw """ & fso.GetParentFolderName(WScript.ScriptFullName) & "\baslat.pyw""", 0, False
