@@ -3,6 +3,14 @@
 Windows'ta ekrandaki her şeyi tek kısayolla Türkçeye çevirir; Android'deki "Çevir / Circle to Search" gibi.
 Çeviri, yazının **kendi yerinde** görünür. API anahtarı, hesap, kayıt gerekmez.
 
+## Özellikler
+- **Yerinde Çeviri (Overlay):** Çevrilen metin doğrudan orijinal metnin üzerinde, arka plan ve yazı rengine uyum sağlayarak gösterilir.
+- **Hızlı & Yerel OCR:** Windows'un yerleşik OCR altyapısı sayesinde ekrandaki yazılar milisaniyeler içinde yerel olarak çözümlenir.
+- **Sıfır Yapılandırma:** API anahtarı, üyelik veya abonelik gerekmez; kurulduğu gibi çalışır.
+- **Bağlam Duyarlı:** Satırlar paragraflara akıllıca birleştirilir; Türkçe içerikler otomatik algılanıp filtrelenir.
+- **Hızlı Kısayollar:** Tek dokunuşla orijinal/çeviri arasında geçiş (`T`), metni panoya kopyalama (`C`).
+
+
 ## Kullanım
 1. `Ctrl+Shift+E` ekranı dondurur.
 2. Bölgeyi sürükle (ya da `Boşluk` ile tüm ekran).
