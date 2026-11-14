@@ -1,5 +1,7 @@
 # Ekran Çeviri
 
+by [Yusuf Günay](https://github.com/yusufgunay-esq)
+
 Windows'ta ekrandaki her şeyi tek kısayolla Türkçeye çevirir; Android'deki "Çevir / Circle to Search" gibi.
 Çeviri, yazının **kendi yerinde** görünür. API anahtarı, hesap, kayıt gerekmez.
 
@@ -35,4 +37,6 @@ Daha iyi İngilizce okuma için (yönetici PowerShell): `Add-WindowsCapability -
 
 ## Lisans
 
-Yusuf Günay tarafından geliştirildi. [Mozilla Public License 2.0](LICENSE): başkası kullanabilir ve geliştirebilir; kendi ayrı kodunu kapalı tutabilir, ama bu projenin dosyalarına yaptığı değişiklikler açık kalır ve "Yusuf Günay" telif satırı korunur.
+Yusuf Günay tarafından geliştirildi. [GNU Genel Kamu Lisansı 3.0](LICENSE) (GPLv3 ya da daha sonraki bir sürüm): başkası kullanabilir, geliştirebilir ve dağıtabilir; değiştirip dağıttığı türev çalışma da GPLv3 ile açık kalır. "Yusuf Günay" telif satırı korunur.
+
+GPLv3 bölüm 7(b) uyarınca ek atıf şartı [LICENSE-EK.md](LICENSE-EK.md) dosyasındadır: dağıtımda, Hakkında ekranında ya da eşdeğer yasal bildirimde ve dağıtım sayfasında bağlantıyla birlikte **"Based on Ekran Çeviri by Yusuf Günay"** satırı görünür. Başlığın altındaki "by Yusuf Günay" satırı yazar atfıdır ve korunmalıdır.

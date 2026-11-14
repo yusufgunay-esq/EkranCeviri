@@ -6,7 +6,7 @@ from pathlib import Path
 
 from PySide6.QtCore import QLockFile, QDir
 from PySide6.QtGui import QAction, QColor, QFont, QIcon, QPainter, QPixmap
-from PySide6.QtWidgets import QApplication, QMenu, QSystemTrayIcon
+from PySide6.QtWidgets import QApplication, QMenu, QMessageBox, QSystemTrayIcon
 
 from . import ocr
 from .kisayol import Kisayol
@@ -79,6 +79,14 @@ def main():
     b.toggled.connect(baslangic_ayarla)
     menu.addAction(b)
     menu.addSeparator()
+    h = QAction("Hakkında", menu)
+    h.triggered.connect(lambda: QMessageBox.about(
+        None, "Ekran Çeviri",
+        "Ekran Çeviri · Yusuf Günay yapımı\n\n"
+        "Based on Ekran Çeviri by Yusuf Günay\n"
+        "https://github.com/yusufgunay-esq/EkranCeviri\n\n"
+        "GNU GPL v3 ya da sonrası. Ek atıf şartı: LICENSE-EK.md"))
+    menu.addAction(h)
     c = QAction("Çıkış", menu)
     c.triggered.connect(lambda: (kisayol.durdur(), app.quit()))
     menu.addAction(c)
